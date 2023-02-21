@@ -16,12 +16,13 @@ const PostList = () => {
   return (
     <div>
       <div className="posts__list">
-        <h2>Posts of User # {userId}</h2>
+        <h2>Posts of User #{userId}</h2>
         {userPosts &&
           userPosts.map((post) => (
-            <p key={post.id} className="post__item">
-              {post.id}. {post.title}
-            </p>
+            <div key={post.id} className="post__item">
+              <p className="postTitle">{post.title}</p>
+              <p className="postBody">{post.body}</p>
+            </div>
           ))}
       </div>
     </div>
