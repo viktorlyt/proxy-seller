@@ -1,6 +1,5 @@
 {
   "name": "proxy-seller-test",
-  "homepage": "https://viktorlyt.github.io/proxy-seller-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
