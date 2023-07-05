@@ -1,3 +1,3 @@
 Demo:
 
-https://viktorlyt.github.io/proxy-seller-test/
+https://proxy-seller.vercel.app/
