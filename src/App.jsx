@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import { Route, Routes } from "react-router-dom";
 import PostList from "./components/PostList";
 import UserList from "./components/UserList";

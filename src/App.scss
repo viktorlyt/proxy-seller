@@ -1,3 +1,5 @@
+@import "bulma/css/bulma.css";
+
 * {
   box-sizing: border-box;
 }
@@ -32,6 +34,10 @@ ul {
   align-items: center;
   font-size: 30px;
   font-weight: bold;
+}
+
+.title {
+  text-align: center;
 }
 
 .userName {
@@ -70,6 +76,7 @@ ul {
   border: 3px solid brown;
   border-radius: 5px;
 }
+
 .postTitle {
   font-size: 32px;
   font-weight: bold;
@@ -95,23 +102,30 @@ ul {
   transition: 0.5s;
 }
 
-.modal.active{
+.modal.active {
   opacity: 1;
   pointer-events: all;
 }
 
 .modal__content {
-  padding: 50px;
+  padding: 35px 50px 50px;
   border-radius: 10px;
   background-color: #fff;
   transform: scale(0.5);
   transition: 0.4s all;
 }
-.modal__content.active{
+
+.modal__content.active {
   transform: scale(1);
 }
-.album{
+
+.album {
   padding: 10px;
   margin-bottom: 5px;
   border: 1px solid orange;
+}
+
+.cross{
+  width: 100%;
+  justify-content: flex-end;
 }

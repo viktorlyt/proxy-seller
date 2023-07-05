@@ -1,3 +1,3 @@
 Demo:
 
-https://viktorlyt.github.io/proxyband-test/
+https://viktorlyt.github.io/proxy-seller-test/

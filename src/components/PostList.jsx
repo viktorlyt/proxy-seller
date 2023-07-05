@@ -1,7 +1,8 @@
+import React from "react";
 import { useParams } from "react-router-dom";
 import { useFetchAllPostsQuery } from "../redux/UserService";
 
-const PostList = () => {
+const PostList = React.memo(() => {
   const { data: posts } = useFetchAllPostsQuery();
   const { userId } = useParams();
 
@@ -27,6 +28,6 @@ const PostList = () => {
       </div>
     </div>
   );
-};
+});
 
 export default PostList;
